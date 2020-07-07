@@ -131,7 +131,7 @@ if ( params.msa=='t_coffee' ){
 
 }
 else {
-	process align_tree {
+	process align_tree2 {
 	    input:
 	    file fasta_file
 	    file t from tree
